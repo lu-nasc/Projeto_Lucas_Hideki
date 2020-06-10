@@ -27,6 +27,8 @@ public:
 
     void MB1() { std::cout << "MB1" << endl; }
     void MB2() { std::cout << "MB2" << endl; }
+    void MB3() { std::cout << "MB3" << endl; }
+
 private:
     int B1
     float B2;
@@ -36,10 +38,23 @@ class C {
 public:
     void MC1() { std::cout << "MC1" << endl; }
     void MC2() { std::cout << "MC2" << endl; }
+    void MC3() { std::cout << "MC3" << endl; }
+
 private:
     std::string C1;
     int C2;
-}
+};
+
+class D {
+public:
+    void MD1() { std::cout << "MD1" << endl; }
+    void MD2() { std::cout << "MD2" << endl; }
+    void MD3() { std::cout << "MD3" << endl; }
+
+private:
+    std::string D1;
+    int D2;
+};
 
 int main(){
     return 0;
