@@ -50,7 +50,7 @@ public:
     void MD1() { std::cout << "MD1" << endl; }
     void MD2() { std::cout << "MD2" << endl; }
     void MD3() { std::cout << "MD3" << endl; }
-    void MD3() { std::cout << "MD4" << endl; }
+    void MD4() { std::cout << "MD4" << endl; }
 
 private:
     std::string D1;
