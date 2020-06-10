@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 class A {
 public:
@@ -10,6 +11,7 @@ public:
 
     void MA1() { std::cout << "MA1" << endl; }
     void MA2() { std::cout << "MA2" << endl; }
+    void MA3() { std::cout << "Alteração a classe A partir do clone" << '\n';}
 private:
     int A1;
     float A2;
@@ -30,6 +32,15 @@ private:
     float B2;
 };
 
-int main(){
+class C {
+public:
+    void MC1() { std::cout << "MC1" << endl; }
+    void MC2() { std::cout << "MC2" << endl; }
+private:
+    std::string C1;
+    int C2;
+}
 
+int main(){
+    return 0;
 }
